@@ -49,6 +49,7 @@ jobs:
       run: |
         git config --global user.email admin@nange.cn
         git config --global user.name 翠花
+        git status
         git add .
         git commit -m "update new refresh_token" -a
     - name: Push changes
